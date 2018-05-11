@@ -23,7 +23,17 @@ namespace CE
     {
         CE_LTRACE_EMPTY;
 
+        std::ifstream script("../../../../../projects/CoreEngine/!_samples/example-01.py");
+        if (script)
+        {
+            std::string data((std::istreambuf_iterator<char>(script)), std::istreambuf_iterator<char>());
 
+            Py_Initialize();
+
+            PyRun_SimpleString(data.c_str());
+
+            Py_FinalizeEx();
+        }
 
         return CE::Core::StatusCode::Success;
     }

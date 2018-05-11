@@ -2,6 +2,7 @@
 #include "core/core.hxx"
 #include "debug/debug.hxx"
 #include "interfaces/interfaces.hxx"
+#include "scripts/scripts.hxx"
 #include "utils/utils.hxx"
 
 #include <fstream>

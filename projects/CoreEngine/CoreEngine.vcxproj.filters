@@ -81,6 +81,9 @@
     <ClInclude Include="include\utils\comparable.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\scripts\scripts.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\main.cxx">
@@ -107,5 +110,11 @@
     <ClCompile Include="sources\core\version.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sources\scripts\scripts.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="!_samples\example-01.py" />
   </ItemGroup>
 </Project>
