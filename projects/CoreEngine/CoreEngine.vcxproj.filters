@@ -84,6 +84,9 @@
     <ClInclude Include="include\scripts\scripts.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\scripts\python.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\main.cxx">
@@ -111,6 +114,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sources\scripts\scripts.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\scripts\python.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

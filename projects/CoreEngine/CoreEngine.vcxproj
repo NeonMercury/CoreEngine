@@ -25,6 +25,7 @@
     <ClCompile Include="sources\debug\logger\log.cxx" />
     <ClCompile Include="sources\debug\logger\logwriter.cxx" />
     <ClCompile Include="sources\main.cxx" />
+    <ClCompile Include="sources\scripts\python.cxx" />
     <ClCompile Include="sources\scripts\scripts.cxx" />
     <ClCompile Include="sources\utils\ostream_adapters.cxx" />
     <ClCompile Include="sources\utils\serializable.cxx" />
@@ -47,6 +48,7 @@
     <ClInclude Include="include\debug\logger\logwriter.hxx" />
     <ClInclude Include="include\interfaces\interfaces.hxx" />
     <ClInclude Include="include\interfaces\serializable.hxx" />
+    <ClInclude Include="include\scripts\python.hxx" />
     <ClInclude Include="include\scripts\scripts.hxx" />
     <ClInclude Include="include\utils\comparable.hxx" />
     <ClInclude Include="include\utils\numargs.hxx" />

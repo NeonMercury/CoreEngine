@@ -28,11 +28,8 @@ namespace CE
         {
             std::string data((std::istreambuf_iterator<char>(script)), std::istreambuf_iterator<char>());
 
-            Py_Initialize();
-
-            PyRun_SimpleString(data.c_str());
-
-            Py_FinalizeEx();
+            auto script = std::make_unique<Scripts::Python>();
+            script->Execute(data);
         }
 
         return CE::Core::StatusCode::Success;
